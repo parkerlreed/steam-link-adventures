@@ -113,4 +113,8 @@ Same method will let you send audio from your computer to the Link (again only w
 * `pactl set-sink-volume 0 90%` Or whatever value you want
 * `pactl set-sink-mute 0 toggle` Toggle mute
 
+## Speculation
+
+I think the reason why HDMI doesn't show up in pulse is: Pulse is only there for external headset support. Their main application probably interfaces with the HDMI audio directly as a means for lowest latency.
+
 # More to come...
