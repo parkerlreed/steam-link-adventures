@@ -106,4 +106,11 @@ Same method will let you send audio from your computer to the Link (again only w
 
 * `PULSE_SERVER=<steam-link-ip> some-program-that-uses-libpulse`
 
+## Volume control from CLI
+
+### On Steam Link
+
+* `pactl set-sink-volume 0 90%` Or whatever value you want
+* `pactl set-sink-mute 0 toggle` Toggle mute
+
 # More to come...
